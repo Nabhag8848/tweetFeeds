@@ -1,0 +1,30 @@
+{
+  "name": "tweetFeeds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nabhag8848/tweetFeeds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nabhag8848/tweetFeeds/issues"
+  },
+  "homepage": "https://github.com/Nabhag8848/tweetFeeds#readme",
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "needle": "^3.0.0",
+    "path": "^0.12.7"
+  }
+}
